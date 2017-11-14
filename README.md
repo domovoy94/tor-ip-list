@@ -12,6 +12,24 @@ Just run the following command in your project root :
 composer require machou/tor-ip-list:~1.0
 ```
 
+## Examples
+
+```php
+<?php
+$ip = $_SERVER['REMOTE_ADDR'];
+
+function is_tor($ip)
+{
+	return in_array($ip, array_map('trim', file('tor-ip-list/Tor_ip_list_ALL.csv'))) ? true : false;
+}
+
+
+function is_tor_exit($ip)
+{
+	return in_array($ip, array_map('trim', file('tor-ip-list/Tor_ip_list_EXIT.csv'))) ? true : false;
+}
+```
+
 ## License
 
 The Tor IP databases are distributed under the [The MIT License](https://opensource.org/licenses/MIT).
