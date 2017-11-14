@@ -9,7 +9,7 @@ This tiny repository aims to provide an easy solution to get all nodes Tor IP in
 Just run the following command in your project root :
 
 ```
-composer require machou/tor-ip-list:~1.0
+composer require machou/tor-ip-list
 ```
 
 ## Examples
