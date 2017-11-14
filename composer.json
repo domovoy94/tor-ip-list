@@ -1,0 +1,8 @@
+{
+    "name": "machou/tor-ip-list",
+    "description": "This tiny repository aims to provide an easy solution to get all nodes Tor IP inside your project using composer.",
+    "type": "database",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
