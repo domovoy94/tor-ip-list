@@ -1,4 +1,4 @@
-# Tor IP List for Composer
+# Tor IP List for composer
 
 ## Description
 
@@ -12,7 +12,7 @@ Just run the following command in your project root :
 composer require machou/tor-ip-list
 ```
 
-## Examples
+## Example PHP
 
 ```php
 <?php
